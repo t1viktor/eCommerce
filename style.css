@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #487346;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='101' height='101' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpolygon fill='%234c8e43' points='100 57.1 64 93.1 71.5 100.6 100 72.1'/%3E%3Cpolygon fill='%236aac5f' points='100 57.1 100 72.1 128.6 100.6 136.1 93.1'/%3E%3Cpolygon fill='%234c8e43' points='100 163.2 100 178.2 170.7 107.5 170.8 92.4'/%3E%3Cpolygon fill='%236aac5f' points='100 163.2 29.2 92.5 29.2 107.5 100 178.2'/%3E%3Cpath fill='%2389CC7C' d='M100 21.8L29.2 92.5l70.7 70.7l70.7-70.7L100 21.8z M100 127.9L64.6 92.5L100 57.1l35.4 35.4L100 127.9z'/%3E%3Cpolygon fill='%23768c3a' points='0 157.1 0 172.1 28.6 200.6 36.1 193.1'/%3E%3Cpolygon fill='%2396ac58' points='70.7 200 70.8 192.4 63.2 200'/%3E%3Cpolygon fill='%23B6CC76' points='27.8 200 63.2 200 70.7 192.5 0 121.8 0 157.2 35.3 192.5'/%3E%3Cpolygon fill='%2396ac58' points='200 157.1 164 193.1 171.5 200.6 200 172.1'/%3E%3Cpolygon fill='%23768c3a' points='136.7 200 129.2 192.5 129.2 200'/%3E%3Cpolygon fill='%23B6CC76' points='172.1 200 164.6 192.5 200 157.1 200 157.2 200 121.8 200 121.8 129.2 192.5 136.7 200'/%3E%3Cpolygon fill='%23768c3a' points='129.2 0 129.2 7.5 200 78.2 200 63.2 136.7 0'/%3E%3Cpolygon fill='%23B6CC76' points='200 27.8 200 27.9 172.1 0 136.7 0 200 63.2 200 63.2'/%3E%3Cpolygon fill='%2396ac58' points='63.2 0 0 63.2 0 78.2 70.7 7.5 70.7 0'/%3E%3Cpolygon fill='%23B6CC76' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+aside{
+    font-family: "Truculenta", sans-serif;
+}
+
+h1{
+    font-family: "Truculenta", sans-serif;
+}
+
+.black {
+
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+
+    background-color: rgb(0, 0, 0);
+    color: darkorange;
+    padding: 15px;
+    
+    color: yellow;
+    display: flex;
+    flex-direction: row;
+    font-family: "Truculenta", sans-serif;
+    text-transform: uppercase;
+}
+
+.black a{
+    color: #ffff;
+}
+
+.black a:hover{
+    color: #afbb02;
+}
+
+header a:hover{
+    color: #afbb02;
+    font-weight: bold;
+
+}
+
+
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 6px;
+    right: 60px;
+}
+
+p span{
+    font-size: 25px;
+    color: #f155ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+::selection{
+    color: #afbb02;
+    background-color: #487346;
+}
+
+.aside{
+    position: absolute;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    right: 0;
+    left: 0;
+    padding-right: 100px;
+    border: solid rgba(255, 255, 255, 0.281) 0.5px;
+
+
+
+}
+
+aside li{
+    transition: all .5s ease;
+}
+
+aside li:hover{
+    transform: translateY(-8px);
+}
+
+.aside ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.aside img{
+    width: 20px;
+}
+
+section nav ul{
+    position: absolute;
+    right: 50%;
+    top: 24%;
+    color: aliceblue;
+
+}
+
+section nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: antiquewhite;
+    gap: 20px;
+}
+
+nav ul a {
+    color: aliceblue;
+    text-transform: uppercase;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(29, 136, 70, 0.959);
+    text-align: center;
+    padding: 15px;
+    padding-top: 42px;
+
+}
+
+input[type="text"]{
+    margin: 15px 30%;
+    padding: 10px 60px;
+    border-radius: 15px;
+    border: solid black 2px;
+    background-color: #506961;
+    color: #ffff;
+} 
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.418);
+    text-transform: uppercase;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0a4907a6;
+    color: aliceblue;
+    padding: 10rem;
+    border: solid black 1px ;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+
+}
+
+button{
+    background-color: #487346;
+    padding: 30px 70px;
+    border-radius: 15px;
+}
